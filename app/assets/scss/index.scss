@@ -1,1 +1,33 @@
 @import "common/variables";
+
+.parser {
+  padding-top: 100px;
+
+  &__handler {
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      padding: 30px 0;
+      margin-bottom: 15px;
+
+      &__stats {
+        display: flex;
+        max-width: 600px;
+        width: 100%;
+        justify-content: space-between;
+        padding: 30px 0;
+      }
+      &__words {
+        display: flex;
+        max-width: 800px;
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
