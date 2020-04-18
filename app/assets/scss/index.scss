@@ -1,7 +1,12 @@
 @import "common/variables";
 
 .parser {
-  padding-top: 100px;
+  padding-top: 50px;
+
+  &__title{
+    text-align: center;
+    margin-bottom: 40px;
+  }
 
   &__handler {
 
